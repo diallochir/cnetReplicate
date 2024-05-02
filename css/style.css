@@ -118,7 +118,7 @@ p {
     border: 0;
     width: 1270px;
     height: 250px;
-    margin-left: 300px;
+    margin-left: 230px;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -131,7 +131,7 @@ p {
 }
 .sec2 {
     flex-basis: 15%;
-    margin-right: 3px;
+    margin-right: 0px;
 }
 .sec3 {
     flex-basis: 15%;
