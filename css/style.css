@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: monumentgrotesk, sans-serif;
+}
+
+.sec-main{
+    font-family: monumentgrotesk, sans-serif;
+    font-size: 0.8rem;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+.login { 
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: black;
+    height: 362px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec-main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-yellow {
+    flex-basis: 40%;
+    background-color: #fcf95a;
+    padding: 1.5rem 1rem;
+    border-radius: 0 1rem 1rem 0;
+    width: 160px;
+    height: 650px;
+    margin-right: 10px;
+}
+.image-news {
+flex-basis: 644px;
+display: flex;
+height: 362px;
+}
+
+.sec-image {
+    flex-basis:644px;
+    color: antiquewhite;
+    width: 644px;
+    background-color: white;
+    cursor: pointer;
+}
+.sec-news {
+    flex-basis: 314px;
+    width: 382px;
+    border: 1px solid green;
+    padding: 1.5rem;
+    background: #ff5d53;
+    border-radius: 0 1rem 0 0;
+}
+
+.SS {
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.text1 {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+    min-height: 0;
+    font-size: 1.8rem;
+    line-height: 35px;
+    padding-right: 1rem;
+    font-weight: 700;
+}
+
+a {
+    color: #020203;
+    text-decoration: none;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html {
+    font-size: 100%;
+    text-size-adjust: 100%;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    cursor: pointer;
+    }
+
+.barre-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    vertical-align: middle;
+    border: 0;
+    width: 1270px;
+    height: 250px;
+    margin-left: 300px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: 0;}
+
+.sec1 {
+    flex-basis: 15%;
+    margin-right: 3px;
+    
+}
+.sec2 {
+    flex-basis: 15%;
+    margin-right: 3px;
+}
+.sec3 {
+    flex-basis: 15%;
+    margin-right: 3px;
+}
+.sec4 {
+    flex-basis: 15%;
+    margin-right: 3px;
+}
